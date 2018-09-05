@@ -1,0 +1,75 @@
+/*reset.css*/
+*,
+*::before,
+*::after{
+	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	tap-highlight-color:transparent;
+	-webkit-tap-highlight-color:transparent;
+}
+
+ul{
+	list-style: none;
+}
+input{
+	border: 0;
+	outline: none;	
+	-webkit-appearance:none;
+	appearance:none;
+}
+
+textarea{
+	resize: none;
+}
+img{
+	vertical-align: middle;
+}
+
+a{
+	text-decoration: none;
+	color:#666;
+}
+
+
+
+/*common.css*/
+
+.ml10{
+	margin-left: 10px;
+}
+
+.mr10{
+	margin-right: 10px;
+}
+
+.mt10{
+	margin-top: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+
+[class^='icon'],[class*=' icon']{
+	background-image: url('../images/sprites.png');
+	background-repeat: no-repeat;
+	background-size: 200px;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearFix::before,.clearFix::after{
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}

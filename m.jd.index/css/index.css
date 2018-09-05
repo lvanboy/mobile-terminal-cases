@@ -1,0 +1,313 @@
+html,body{
+	width: 100%;
+	font-size: 14px;
+	color:#333;
+	font-family: "Microsoft YaHei" ,sans-serif;
+	background: #f5f5f5;
+}
+
+
+.jd-container{
+	min-width: 320px;
+	max-width: 640px;
+	width: 100%;
+	margin:0 auto;
+
+}
+
+.jd-container aside{
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+.jd-container aside .top-wrapper{
+	min-width: 320px;
+	max-width: 640px;
+	margin:0 auto;
+	width: 100%;
+	height: 40px;
+	position: relative;
+	background: rgba(201,21,35,0);
+}
+
+.jd-container aside .icon-logo{
+	position: absolute;
+	width: 60px;
+	height: 36px;
+	top: 4px;
+	left: 10px;
+	background-position: 0 -103px 
+}
+
+.jd-container aside form{
+	width: 100%;
+	padding-left: 70px;
+	padding-right: 50px;
+}
+.jd-container aside .icon-search{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 10px;
+	left: 78px;
+	background-position:  -60px -110px;
+}
+
+.jd-container aside form input{
+	width: 100%;
+	height: 30px;
+	border-radius: 15px;
+	margin-top: 5px;
+	padding-left: 35px;
+	background: #fff;
+}
+
+.jd-container aside .login{
+	position: absolute;
+	width: 50px;
+	right: 0;
+	top: 0;	
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.banner ul:first-child{
+	width: 1000%;
+	transform: translateX(-10%);
+	transition:transform 0.3s;
+}
+
+.banner ul:first-child li {
+	width: 10%;
+}
+
+.banner ul:first-child li a{
+	display: block;
+	width: 100%;
+}
+
+.banner ul:first-child li a img{
+	display: block;
+	width: 100%;
+}
+.banner ul:last-child{
+	position: absolute;
+	left:50%;
+	bottom: 5px;
+	transform: translateX(-50%);
+}
+
+.banner ul:last-child li{
+	float: left;
+	width: 6px;
+	height: 6px;
+	border-radius:  50%;
+	border: 1px solid white;
+}
+
+.banner ul:last-child li.now{
+	background: white;
+}
+.banner ul:last-child li + li{
+	margin-left: 10px;
+}
+
+nav{
+	width: 100%;
+	background:white;
+	border-bottom: 1px solid #ccc;
+}
+
+nav ul{
+	width: 100%;
+	padding: 10px 0
+}
+
+nav ul li{
+	width: 25%;
+	float: left;
+	
+}
+ nav ul li a{
+ 	display: block;
+	width: 100%;
+	text-align: center;
+ }
+
+ nav ul li a img{
+	width: 40px;
+	height: 40px;
+ }
+ nav ul li a p{
+	font-size: 12px;
+	padding: 5px 0;
+ }
+
+ .pro{
+ 	padding: 0 5px;
+ }
+ .pro .sk{
+ 	width: 100%;
+ 	padding: 0 15px 10px;
+ 	background: white;
+ 	box-shadow: 0 0 2px #ccc;
+ }
+ .pro .sk .tit{
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	position: relative;
+ }
+
+ .pro .sk .tit .l-float{
+ 	float: left;
+
+ }
+
+ .pro .sk .tit .time{
+ 	float: left;
+
+ }
+ .pro .sk .tit i{
+ 	position: absolute;
+ 	top: 7px;
+	width: 16px;
+	height: 20px;
+	background: url("../images/seckill-icon.png") no-repeat center/16px 20px;
+ }
+
+ .pro .sk .tit h3{
+	font-size: 16px;
+	font-weight: normal;
+	color:#d8505c;
+	margin-left: 25px;
+
+ }
+
+.pro .sk .tit span{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: black;
+	text-align: center;
+	line-height: 16px;
+	color:white;
+	margin-top: 9px;
+}
+.pro .sk .tit span + span{
+	margin-left: 3px;
+}
+.pro .sk .tit span:nth-child(3n){
+	background: white;
+	width: 3px;
+	color:#333;
+}
+.pro .sk .tit a{
+	color:#333;
+}
+
+.pro .sk .content{
+	width: 100%;
+}
+.pro .sk .content ul{
+	width: 100%;
+}
+
+.pro .sk .content ul li {
+	float: left;
+	width: 33.3333%;
+}
+.pro .sk .content ul li a {
+	display: block;
+	width: 100%;
+	border-right: 1px solid #ddd;
+}
+
+.pro .sk .content ul li:last-child a{
+	border-right:none;
+}
+.pro .sk .content ul li a img{
+	display: block;
+	width: 64%;
+	margin:0 auto;
+}
+.pro .sk .content ul li .special{
+	font-size: 12px;
+	color:#d8505c;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.pro .sk .content ul li .origin{
+	text-decoration: line-through;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.ad{
+	width: 100%;
+	padding-bottom: 10px;
+}
+.ad .ad-itme{
+	width: 100%;
+}
+.ad .ad-itme .tit{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	position: relative;
+	background: white;
+	border-bottom: 1px solid #ddd;
+}
+.ad .ad-itme .tit i{
+	width: 3px;
+	height: 12px;
+	background: #d8505c;
+	left: 10px;
+	top: 11px;
+	position: absolute;
+}
+.ad .ad-itme .tit h3{
+	font-weight: normal;
+	padding-left: 23px;
+}
+.ad .ad-itme .con{
+	width: 100%;
+	background: white;
+}
+.ad .ad-itme .con a{
+	float: left;
+	width: 50%;
+}
+.ad .ad-itme .con.right a{
+	float: right;
+}
+.ad .ad-itme .con a:first-child{
+	border-right: 1px solid #ccc;
+}
+
+.ad .ad-itme .con a:nth-child(2){
+	border-bottom: 1px solid #ccc;
+}
+.ad .ad-itme .con a img{
+	display: block;
+	width: 100%;
+}
+
+.ad .ad-itme .con.right a:first-child{
+	border-left: 1px solid #ccc;
+	border-right: none;
+}
+
